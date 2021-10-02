@@ -5,19 +5,21 @@
         <title>Password Generator</title>
     </head>
     <body>
-        <div>
-            <h1>Password generator</h1>
-        </div>
+        <section>
+            <div>
+                <h1>Password generator</h1>
+            </div>
 
-        <div class="chooser-container">
-            <label>Password size</label>
-            <input type="number" id="pass" min="0" max="15" />
-            <button onclick="generatePass()">Generate pasword</button> 
-        </div>
+            <div class="chooser-container">
+                <label>Password size</label>
+                <input type="number" id="pass" min="0" max="15" />
+                <button onclick="generatePass()">Generate pasword</button> 
+            </div>
 
-        <div class="pass-generated">
-            <span id="newPassword"></span>
-        </div>
+            <div class="pass-generated">
+                <span id="newPassword"></span>
+            </div>
+        </section>
     </body>
     <script src="./src/script.js"></script>
 </html>
