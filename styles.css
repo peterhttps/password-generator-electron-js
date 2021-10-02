@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.chooser-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.chooser-container label {
+    margin-right: 8px;
+}
+
+.chooser-container input {
+    margin-right: 8px;
+}
+
+.pass-generated {
+    text-align: center;
+    margin-top: 16px;
+}
